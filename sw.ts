@@ -1,6 +1,7 @@
 import {html, renderToStream} from './arvo';
 import Index, * as indexActions from './pages';
 import Note, * as noteActions from './pages/notes/id';
+import './style.css';
 
 function pathToRegex(path: string) {
   const formattedPath = path.replace(/\[(.*?)\]/g, (_, name) => {

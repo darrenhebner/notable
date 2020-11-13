@@ -33,7 +33,7 @@ export default function({notes}: ReturnType<typeof load>) {
 
 async function Notes(notes: ReturnType<typeof load>['notes']) {
   const resolved = await notes;
-  console.log(resolved);
+
   if (resolved.length === 0) {
     return html`
       <p>
