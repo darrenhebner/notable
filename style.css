@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd,
+form {
+  margin: 0;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 600px;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: LinkText;
+}
+
+h1 {
+  font-size: 1.875rem;
+  margin: 0 0 1.25rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 0 0 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  margin-bottom: 2rem;
+}
+
+.composer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+textarea {
+  width: 100%;
+  flex-grow: 1;
+  resize: none;
+  border: 0;
+  outline: 0;
+  padding: 0;
+}
+
+button {
+  background: none;
+  border: 2px solid LinkText;
+  border-radius: 20px;
+  color: LinkText;
+  padding: 0.5rem 1rem;
+}
+
+button:hover,
+button:focus,
+button:active {
+  background: LinkText;
+  color: white;
+  outline: none;
+}

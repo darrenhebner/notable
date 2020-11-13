@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Notable</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>">
+</head>
+<body>
+  <header class="home-header">
+    <h1>Notable</h1>
+    <form action="/?action=create" method="post">
+      <button type="submit">✎ Write</button>
+    </form>
+  </header>
+
+  <p>Notable is a place to write down your thoughts.</p>
+
+  <ul>
+    <li>Completely private</li>
+    <li>All of your data stays on your device</li>
+    <li>Works offline by default</li>
+    <li>Fast & Simple</li>
+    <li>No account required</li>
+  </ul>
+
+  <script>
+    navigator.serviceWorker.register('./sw.ts')
+  </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "arvo-writer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "scripts": {
+    "dev": "parcel index.html style.css",
+    "build": "parcel build index.html style.css"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "idb-keyval": "^3.2.0"
+  }
+}
